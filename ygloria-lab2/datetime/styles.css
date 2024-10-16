@@ -1,0 +1,35 @@
+/* General page styling */
+body {
+    font-family: 'Arial', sans-serif; 
+    display: flex; /* Flexbox layout to center content */
+    align-items: center; /* Vertical */
+    justify-content: center; /* Horizontal */
+    height: 100vh; /* Viewport height to fill the page */
+    background-color: lightgray; 
+}
+
+/* Center the datetime component */
+.datetime {
+    text-align: center; 
+}
+
+/* Styling for the time display */
+.time {
+    font-size: 94px; 
+    color: mediumseagreen; 
+}
+
+/* AM/PM section styling */
+.am-pm {
+    display: flex;
+    justify-content: center; 
+    font-size: 22px; 
+    color: mediumseagreen; 
+}
+
+/* Styling for the date display */
+.date {
+    font-size: 30px; 
+    color: dimgray; 
+}
+
