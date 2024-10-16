@@ -1,0 +1,37 @@
+/* Base styling for the body component */
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+/* Styling for the quarterly goals */
+.quarterly-goals {
+    background: white;
+    border: 2px solid blue;
+    padding: 18px;
+    border-radius: 10px;
+    width: 320px;
+}
+
+/* Heading styles for h2 and h3 elements */
+h2, h3 {
+    color: blue;
+}
+
+/* Removes the default list style and padding */
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+/* Styles for each list item */
+li {
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
