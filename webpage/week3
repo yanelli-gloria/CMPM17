@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me - Yanelli Gloria</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #add8e6;
+        margin: 20px;
+      }
+      h1 {
+        color: #0000ff;
+      }
+      ul {
+        color: #0000ff;
+        font-size: 18px;
+        padding-left: 20px;
+      }
+      .info {
+        background-color: #add8e6;
+        padding: 10px;
+        border-radius: 8px;
+        max-width: 400px;
+      }
+      strong {
+        background-color: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>About Me</h1>
+
+    <div class="info">
+      <ul>
+        <li><strong>Name:</strong> Ellie Gloria</li>
+        <li><strong>Major:</strong> Networks and Digital Technology</li>
+        <li><strong>Year:</strong> 2026</li>
+        <li>
+          <strong>Hobbies:</strong> Watching TV shows and listening to music
+        </li>
+        <li id="funFact">
+          <strong>Fun Fact:</strong> I have a <a href="#" id="moped">moped</a>!
+        </li>
+      </ul>
+    </div>
+
+    <script>
+      // JavaScript function to show a pop-up when "moped" is clicked
+      document.getElementById("moped").onclick = function () {
+        alert("I like mopeds.");
+      };
+    </script>
+  </body>
+</html>
