@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.goals-container {
+    background: white;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 320px;
+}
+
+.goal {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.tag {
+    color: gray;
+    font-style: italic;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
