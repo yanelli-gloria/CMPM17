@@ -16,7 +16,7 @@ body {
 }
 
 .tag {
-    color: gray; /* Default hashtag color */
+    color: gray; 
     font-style: italic;
 }
 
