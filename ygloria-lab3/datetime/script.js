@@ -1,11 +1,7 @@
 function updateDateTime() {
     const now = new Date();
-    const hours = now.getHours() % 12 || 12;
-    const minutes = String(now.getMinutes()).padStart(2, '0');
-    const amPm = now.getHours() >= 12 ? 'PM' : 'AM';
-    const timeString = `${hours}:${minutes} ${amPm}`;
+    const timeString = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
     const dateString = now.toLocaleDateString();
-
     document.getElementById('time').textContent = timeString;
     document.getElementById('date').textContent = dateString;
 }
